@@ -11,10 +11,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/samsung/sm8150-common/proprietary/etc/permissions/qti_telephony_hidl_wrapper.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_telephony_hidl_wrapper.xml \
     vendor/samsung/sm8150-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/samsung/sm8150-common/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
-    vendor/samsung/sm8150-common/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
-    vendor/samsung/sm8150-common/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
-    vendor/samsung/sm8150-common/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
+    vendor/samsung/sm8150-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
+    vendor/samsung/sm8150-common/proprietary/lib/libfmradio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmradio_jni.so \
+    vendor/samsung/sm8150-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
+    vendor/samsung/sm8150-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
+    vendor/samsung/sm8150-common/proprietary/lib64/libfmradio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmradio_jni.so \
+    vendor/samsung/sm8150-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
     vendor/samsung/sm8150-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/samsung/sm8150-common/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/sm8150-common/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
@@ -24,7 +26,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.fm@1.0 \
     HotwordEnrollmentOKGoogleExWCD9340 \
     HotwordEnrollmentXGoogleExWCD9340 \
