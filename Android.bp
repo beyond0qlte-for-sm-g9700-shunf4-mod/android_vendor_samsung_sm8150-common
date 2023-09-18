@@ -43,34 +43,137 @@ cc_prebuilt_library_shared {
 	prefer: true,
 }
 
-android_app_import {
-	name: "HotwordEnrollmentOKGoogleExWCD9340",
+cc_prebuilt_library_shared {
+	name: "libaudioeffectoffload",
 	owner: "samsung",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
+	strip: {
+		none: true,
 	},
-	privileged: true,
-	product_specific: true,
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libaudioeffectoffload.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
 }
 
-android_app_import {
-	name: "HotwordEnrollmentXGoogleExWCD9340",
+cc_prebuilt_library_shared {
+	name: "audio.primary.msmnile",
 	owner: "samsung",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
+	strip: {
+		none: true,
 	},
-	privileged: true,
-	product_specific: true,
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/audio.primary.msmnile.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
 }
 
-dex_import {
-	name: "com.android.hotwordenrollment.common.util",
+cc_prebuilt_library_shared {
+	name: "lib_SamsungRec_07010",
 	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
-	system_ext_specific: true,
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/lib_SamsungRec_07010.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaudioproxy",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libaudioproxy.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "librecordalive",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/librecordalive.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libswdap",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libswdap.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libskeymaster4device",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libskeymaster4device.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.gnss@2.1-service-qti",
+	owner: "samsung",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
 }
 
