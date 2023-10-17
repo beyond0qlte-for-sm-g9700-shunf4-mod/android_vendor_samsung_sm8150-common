@@ -11,39 +11,67 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/samsung/sm8150-common/proprietary/etc/permissions/qti_telephony_hidl_wrapper.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_telephony_hidl_wrapper.xml \
     vendor/samsung/sm8150-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    vendor/samsung/sm8150-common/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/sm8150-common/proprietary/lib/libfmradio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmradio_jni.so \
     vendor/samsung/sm8150-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
-    vendor/samsung/sm8150-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/sm8150-common/proprietary/lib64/libfmradio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmradio_jni.so \
     vendor/samsung/sm8150-common/proprietary/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
     vendor/samsung/sm8150-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/samsung/sm8150-common/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/samsung/sm8150-common/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
     vendor/samsung/sm8150-common/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/samsung/sm8150-common/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/bin/factory.ssc:$(TARGET_COPY_OUT_VENDOR)/bin/factory.ssc \
     vendor/samsung/sm8150-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/android.hardware.health@2.1-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service-samsung \
     vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/samsung/sm8150-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/ppd:$(TARGET_COPY_OUT_VENDOR)/bin/ppd \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
     vendor/samsung/sm8150-common/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
+    vendor/samsung/sm8150-common/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service.rc \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/locale/plmn_delta_eng.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_eng.bin \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/locale/plmn_delta_zh-rCN.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rCN.bin \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/locale/plmn_delta_zh-rHK.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rHK.bin \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/locale/plmn_delta_zh-rTW.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rTW.bin \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_c2_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_c2_sec_ape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_ape.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_c2_sec_qcp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_qcp.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_c2_sec_wmx.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec_wmx.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/mixer_paths_pahu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pahu.xml \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/plmn_delta_chn.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_chn.bin \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA7_AMB575WD01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA7_AMB575WD01_FHD.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA7_AMB575WD01_FHD_1185Mbps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FA7_AMB575WD01_FHD_1185Mbps.xml \
+    vendor/samsung/sm8150-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/sensors/config/msmnile_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_ak991x_0.json \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/sensors/config/msmnile_ak991x_6.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_ak991x_6.json \
     vendor/samsung/sm8150-common/proprietary/vendor/etc/sensors/config/msmnile_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_lps22hh_0.json \
@@ -203,12 +231,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/uw_dual_calibration.bin \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/w_dual_calibration.bin \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.unihal.default.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libBeauty_v4.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeauty_v4.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDualCamBokehCapture.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFacePreProcessing.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libHprFace_GAE_api.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHprFace_GAE_api.camera.samsung.so \
@@ -217,10 +256,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libIDDQD_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIDDQD_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libLocalTM_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLocalTM_capture_core.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libLocalTM_wrapper.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLocalTM_wrapper.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libarcsoft_dualcam_portraitlighting_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_portraitlighting_preview.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
@@ -229,17 +272,30 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpps.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libdualcam_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_optical_zoom.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_optical_zoom_control.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libdualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_refocus_image.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libdualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_refocus_video.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libexifa.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexifa.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libformatConverter.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatConverter.unifunc.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamicootf.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libhumantracking_util.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhumantracking_util.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion_core.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libhypermotion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion_interface.so \
@@ -247,12 +303,39 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libimagecodec_native.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagecodec_native.quram.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libjpegQtable_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegQtable_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libjpegencoder_sw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegencoder_sw.unifunc.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/liblivefocus_capture_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_capture_engine.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/liblivefocus_capture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_capture_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/liblivefocus_preview_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_preview_engine.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/liblivefocus_preview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblivefocus_preview_interface.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpadm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csvt_srvc.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_legacy.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libscaler_hw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscaler_hw.unifunc.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
@@ -260,9 +343,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-colormgr-algo.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-vndapis.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec_semRil.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecril-client.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsegmentationeffect.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsegmentationeffect.uniplugin@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsmartfocus_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartfocus_interface.so \
@@ -273,16 +364,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libsocial_image_enhancement.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsocial_image_enhancement.uniplugin@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libswldc_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswldc_capture_core.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_core.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libvdis_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.arcsoft.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libvideobeauty.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.uniplugin@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty_interface.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/rfsa/adsp/libcamera_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libcamera_nn_skel.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
@@ -290,6 +386,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/unihal_cutils@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/unihal_cutils@1.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/unihal_main@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/unihal_main@1.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/unihal_uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/unihal_uniplugin@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.3.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.2.so \
@@ -297,6 +400,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@4.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.scve.objecttracker@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.scve.panorama@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@5.0-impl.so \
@@ -304,6 +408,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@2.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0-impl.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/camera/com.samsung.sensor.imx316.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.imx316.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/camera/com.samsung.sensor.imx316_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.imx316_front.so \
@@ -359,12 +464,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/camera/components/com.samsung.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.smooth_transition.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mdfpp.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libBeauty_v4.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBeauty_v4.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libDualCamBokehCapture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamBokehCapture.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFacePreProcessing.camera.samsung.so \
@@ -375,9 +491,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libImageFormatConverter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libImageFormatConverter.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libLocalTM_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLocalTM_capture_core.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libLocalTM_wrapper.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libLocalTM_wrapper.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libSecC2ComponentStore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecC2ComponentStore.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
@@ -386,27 +507,71 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayqos.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpps.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdualcam_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_optical_zoom.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_optical_zoom_control.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libdualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_refocus_image.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libface_landmark.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libface_landmark.arcsoft.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfocuspeaking_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamic.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamicootf.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhigh_dynamic_range_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhigh_dynamic_range_bokeh.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhumantracking_util.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhumantracking_util.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_core.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libhypermotion_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libjpegQtable_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegQtable_interface.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/liblivefocus_capture_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_capture_engine.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/liblivefocus_capture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_capture_interface.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/liblivefocus_preview_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_preview_engine.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/liblivefocus_preview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_preview_interface.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libmdmimgload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmimgload.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libpadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpadm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csvt_srvc.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_legacy.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libril_sem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_sem.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
@@ -414,21 +579,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-colormgr-algo.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec_semRil.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libskeymaster4device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster4device.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libswldc_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswldc_capture_core.camera.samsung.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis_core.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/libvdis_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis_interface.so \
@@ -437,6 +614,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.3.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
@@ -444,6 +628,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.gnss@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@4.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dsp@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.scve.panorama@1.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so \
@@ -451,6 +636,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
+    vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.1.so \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
@@ -459,13 +645,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8150-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.2.so
 
 PRODUCT_PACKAGES += \
-    libantradio \
-    vendor.qti.hardware.fm@1.0 \
     libaudioeffectoffload \
+    vendor.qti.hardware.fm@1.0 \
     audio.primary.msmnile \
     lib_SamsungRec_07010 \
-    libaudioproxy \
     librecordalive \
     libswdap \
-    libskeymaster4device \
-    android.hardware.gnss@2.1-service-qti
+    android.hardware.gnss@2.1-service-qti \
+    android.hardware.health@2.1-samsung \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    sec_c2_manifest_default
